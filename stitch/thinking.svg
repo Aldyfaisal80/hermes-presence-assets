@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#1e1f22" height="512" rx="24" width="512"></rect>
+<!-- Pulse Glow -->
+<circle cx="256" cy="256" fill="#5865F2" r="180">
+<animate attributename="opacity" dur="0.96s" repeatcount="indefinite" values="0.3;0.6;0.3"></animate>
+<animate attributename="r" dur="0.96s" repeatcount="indefinite" values="160;190;160"></animate>
+</circle>
+<!-- Wing Strokes -->
+<path d="M120 256 Q140 180 200 160" fill="none" opacity="0.4" stroke="white" stroke-linecap="round" stroke-width="12"></path>
+<path d="M392 256 Q372 180 312 160" fill="none" opacity="0.4" stroke="white" stroke-linecap="round" stroke-width="12"></path>
+<!-- H Monogram -->
+<path d="M190 160 V352 M322 160 V352 M190 256 H322" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="48"></path>
+<!-- Orbiting Particle -->
+<circle fill="#5865F2" r="12">
+<animatemotion dur="0.96s" path="M256,256 m-180,0 a180,80 0 1,0 360,0 a180,80 0 1,0 -360,0" repeatcount="indefinite"></animatemotion>
+<animate attributename="r" dur="0.48s" repeatcount="indefinite" values="10;14;10"></animate>
+</circle>
+</svg>

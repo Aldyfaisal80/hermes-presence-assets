@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="64" viewbox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#1e1f22" height="64" rx="8" width="64"></rect>
+<path d="M42 36 C42 26 34 18 24 18 C22 18 20 18.5 18 19.5 C22 23 25 28 25 34 C25 40 22 45 18 48.5 C20 49.5 22 50 24 50 C34 50 42 42 42 36 Z" fill="#b5bac1">
+<animatetransform additive="sum" attributename="transform" dur="1.92s" pivot="32,32" repeatcount="indefinite" type="scale" values="0.9;1;0.9"></animatetransform>
+</path>
+<circle cx="48" cy="22" fill="white" r="1">
+<animate attributename="opacity" dur="1.5s" repeatcount="indefinite" values="0.2;1;0.2"></animate>
+</circle>
+<circle cx="54" cy="30" fill="white" r="1.5">
+<animate attributename="opacity" dur="2s" repeatcount="indefinite" values="1;0.2;1"></animate>
+</circle>
+</svg>

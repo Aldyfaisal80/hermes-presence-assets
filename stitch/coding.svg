@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="64" viewbox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#1e1f22" height="64" rx="8" width="64"></rect>
+<path d="M22 24 L14 32 L22 40 M42 24 L50 32 L42 40" fill="none" stroke="#23a55a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<rect fill="#23a55a" height="16" opacity="1" width="4" x="30" y="24">
+<animate attributename="opacity" calcmode="discrete" dur="0.96s" repeatcount="indefinite" values="1;0;1"></animate>
+</rect>
+</svg>

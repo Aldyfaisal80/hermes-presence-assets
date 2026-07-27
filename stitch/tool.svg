@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="64" viewbox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#1e1f22" height="64" rx="8" width="64"></rect>
+<g>
+<animatetransform attributename="transform" dur="3s" from="0 32 32" repeatcount="indefinite" to="360 32 32" type="rotate"></animatetransform>
+<path d="M32 14 L35 18 H29 Z M32 50 L29 46 H35 Z M14 32 L18 29 V35 Z M50 32 L46 35 V29 Z M20 20 L24 23 L21 26 Z M44 44 L40 41 L43 38 Z M20 44 L23 40 L26 43 Z M44 20 L41 24 L38 21 Z" fill="#b5bac1"></path>
+<circle cx="32" cy="32" fill="none" r="10" stroke="#b5bac1" stroke-width="4"></circle>
+</g>
+<circle cx="32" cy="32" fill="#1e1f22" r="4"></circle>
+</svg>
