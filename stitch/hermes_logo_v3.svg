@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<svg height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#1e1f22" height="512" rx="128" width="512"></rect>
+<!-- Pulsing Background Glow -->
+<circle cx="256" cy="256" fill="#5865F2" r="180">
+<animate attributename="opacity" dur="0.96s" repeatcount="indefinite" values="0.3;0.6;0.3"></animate>
+<animate attributename="r" dur="0.96s" repeatcount="indefinite" values="160;190;160"></animate>
+</circle>
+<!-- Wing Strokes -->
+<g opacity="0.6">
+<path d="M120 256 Q140 160 200 140" fill="none" stroke="white" stroke-linecap="round" stroke-width="12"></path>
+<path d="M392 256 Q372 160 312 140" fill="none" stroke="white" stroke-linecap="round" stroke-width="12"></path>
+</g>
+<!-- H Monogram -->
+<path d="M180 140 V372 M332 140 V372 M180 256 H332" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="48"></path>
+<!-- Glowing Ring -->
+<circle cx="256" cy="256" fill="none" opacity="0.8" r="220" stroke="#5865F2" stroke-width="8">
+<animate attributename="stroke-width" dur="1.92s" repeatcount="indefinite" values="8;12;8"></animate>
+<animate attributename="opacity" dur="1.92s" repeatcount="indefinite" values="0.4;0.8;0.4"></animate>
+</circle>
+<!-- Orbiting Particle -->
+<circle fill="#5865F2" r="14">
+<animatemotion dur="0.96s" path="M256,256 m-210,0 a210,100 0 1,0 420,0 a210,100 0 1,0 -420,0" repeatcount="indefinite"></animatemotion>
+<filter id="glow">
+<fegaussianblur result="coloredBlur" stddeviation="4"></fegaussianblur>
+<femerge>
+<femergenode in="coloredBlur"></femergenode>
+<femergenode in="SourceGraphic"></femergenode>
+</femerge>
+</filter>
+</circle>
+</svg>
